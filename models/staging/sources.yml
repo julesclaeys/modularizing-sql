@@ -1,15 +1,14 @@
 version: 2
 
-sources:
+sources: 
   - name: jaffle_shop
-    database: til_portfolio_projects 
-    schema: jaffle_shop  
-    tables:
+    database: til_portfolio_projects
+    schema: jaffle_shop
+    tables: 
       - name: orders
       - name: customers
-
   - name: stripe
     database: til_portfolio_projects
     schema: stripe
-    tables:
+    tables: 
       - name: payment
